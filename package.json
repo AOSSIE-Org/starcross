@@ -1,0 +1,33 @@
+{
+  "name": "Stardroid",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build:android": "cd android && ./gradlew assembleRelease",
+    "reinstall": "rm -rf node_modules; yarn cache clean; yarn install",
+    "ios": "react-native run-ios",
+    "ios-min": "react-native run-ios --simulator 'iPhone 5s'",
+    "ios-mid": "react-native run-ios --simulator 'iPhone 8 Plus'",
+    "ios-max": "react-native run-ios --simulator 'iPhone X'",
+    "ipad": "react-native run-ios --simulator 'iPad Air'",
+    "ios-device": "react-native run-ios --device",
+    "android-min": "react-native run-android",
+    "android-max": "react-native run-android",
+    "android-release": "react-native run-android --variant=release",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.3"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
