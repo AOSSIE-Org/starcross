@@ -1,4 +1,4 @@
-package com.stardroid;
+package com.starcross;
 
 import android.app.Application;
 

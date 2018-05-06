@@ -34,7 +34,7 @@
 * Run `npm run ios-max` for iPhone X
 * Run `npm run ipad` for iPad Air
 
-## Running on IOS
+## Running on ANDROID
 
 * Run `npm run android-min` for a smaller size android device
 * Run `npm run android-max` for a bigger size android device

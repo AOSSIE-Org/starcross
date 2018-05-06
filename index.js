@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native'
 import MainApp from './src/MainApp'
 
-AppRegistry.registerComponent('Stardroid', () => MainApp)
+AppRegistry.registerComponent('starcross', () => MainApp)
