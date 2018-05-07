@@ -1,0 +1,3 @@
+rootProject.name = 'starcross'
+
+include ':app'
