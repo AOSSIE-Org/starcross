@@ -7,7 +7,9 @@ import { Provider, connect } from 'react-redux'
 import store from './redux/store'
 import MainNavigator from './config/routes'
 import { addNavigationHelpers } from 'react-navigation'
-import { createReduxBoundAddListener } from 'react-navigation-redux-helpers'
+import { createReduxBoundAddListener, createReactNavigationReduxMiddleware } from 'react-navigation-redux-helpers'
+
+const middleware = createReactNavigationReduxMiddleware('root', state => state.nav)
 const addListener = createReduxBoundAddListener('root')
 
 const App = ({ dispatch, nav }) => (
