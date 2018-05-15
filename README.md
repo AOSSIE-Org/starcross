@@ -36,6 +36,7 @@
 
 ## Running on ANDROID
 
+* Make Sure there is correct Java JDK path in android/gradle.properties
 * Run `npm run android-min` for a smaller size android device
 * Run `npm run android-max` for a bigger size android device
 * Run `npm run build:android` for android build
